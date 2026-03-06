@@ -88,7 +88,7 @@ Formats and dispatches alerts.
 
 ```bash
 # Clone
-git clone https://github.com/yourhandle/orca.git
+git clone [https://github.com/prakulhiremath/ORCA.git]
 cd orca
 
 # Install
