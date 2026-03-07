@@ -1,0 +1,178 @@
+[
+  {
+    "ticker": "SNOW",
+    "name": "Snowflake Inc.",
+    "sector": "Technology",
+    "market_cap": 45000000000,
+    "cloud_primary": "AWS",
+    "cloud_secondary": ["Azure", "GCP"],
+    "confidence": 0.95,
+    "dependency_sources": ["edgar_filing", "manual"],
+    "regions": [
+      { "provider": "AWS", "region_id": "us-east-1", "confidence": 0.90 },
+      { "provider": "AWS", "region_id": "us-west-2", "confidence": 0.85 },
+      { "provider": "Azure", "region_id": "eastus", "confidence": 0.80 }
+    ],
+    "notes": "Snowflake runs on all three major clouds as part of its multi-cloud offering"
+  },
+  {
+    "ticker": "DDOG",
+    "name": "Datadog Inc.",
+    "sector": "Technology",
+    "market_cap": 35000000000,
+    "cloud_primary": "AWS",
+    "cloud_secondary": ["GCP"],
+    "confidence": 0.90,
+    "dependency_sources": ["edgar_filing", "ip_fingerprint"],
+    "regions": [
+      { "provider": "AWS", "region_id": "us-east-1", "confidence": 0.90 },
+      { "provider": "AWS", "region_id": "eu-west-1", "confidence": 0.75 }
+    ],
+    "notes": "Datadog infrastructure heavily on AWS; also uses GCP for some services"
+  },
+  {
+    "ticker": "MDB",
+    "name": "MongoDB Inc.",
+    "sector": "Technology",
+    "market_cap": 25000000000,
+    "cloud_primary": "AWS",
+    "cloud_secondary": ["Azure", "GCP"],
+    "confidence": 0.92,
+    "dependency_sources": ["edgar_filing"],
+    "regions": [
+      { "provider": "AWS", "region_id": "us-east-1", "confidence": 0.90 },
+      { "provider": "Azure", "region_id": "eastus", "confidence": 0.80 },
+      { "provider": "GCP", "region_id": "us-central1", "confidence": 0.75 }
+    ],
+    "notes": "MongoDB Atlas runs across all three providers"
+  },
+  {
+    "ticker": "CRWD",
+    "name": "CrowdStrike Holdings",
+    "sector": "Technology",
+    "market_cap": 70000000000,
+    "cloud_primary": "AWS",
+    "cloud_secondary": [],
+    "confidence": 0.95,
+    "dependency_sources": ["edgar_filing", "manual"],
+    "regions": [
+      { "provider": "AWS", "region_id": "us-east-1", "confidence": 0.95 },
+      { "provider": "AWS", "region_id": "eu-west-1", "confidence": 0.80 }
+    ],
+    "notes": "CrowdStrike Falcon platform is AWS-native. Critical dependency confirmed."
+  },
+  {
+    "ticker": "NET",
+    "name": "Cloudflare Inc.",
+    "sector": "Technology",
+    "market_cap": 30000000000,
+    "cloud_primary": "AWS",
+    "cloud_secondary": [],
+    "confidence": 0.70,
+    "dependency_sources": ["ip_fingerprint"],
+    "regions": [
+      { "provider": "AWS", "region_id": "us-east-1", "confidence": 0.65 }
+    ],
+    "notes": "Cloudflare runs its own edge network but uses AWS for some internal services"
+  },
+  {
+    "ticker": "NOW",
+    "name": "ServiceNow Inc.",
+    "sector": "Technology",
+    "market_cap": 180000000000,
+    "cloud_primary": "AWS",
+    "cloud_secondary": ["Azure"],
+    "confidence": 0.88,
+    "dependency_sources": ["edgar_filing"],
+    "regions": [
+      { "provider": "AWS", "region_id": "us-east-1", "confidence": 0.85 },
+      { "provider": "Azure", "region_id": "eastus", "confidence": 0.70 }
+    ]
+  },
+  {
+    "ticker": "CRM",
+    "name": "Salesforce Inc.",
+    "sector": "Technology",
+    "market_cap": 250000000000,
+    "cloud_primary": "AWS",
+    "cloud_secondary": ["GCP"],
+    "confidence": 0.85,
+    "dependency_sources": ["edgar_filing", "job_posting"],
+    "regions": [
+      { "provider": "AWS", "region_id": "us-east-1", "confidence": 0.80 },
+      { "provider": "AWS", "region_id": "us-west-2", "confidence": 0.75 }
+    ]
+  },
+  {
+    "ticker": "ZS",
+    "name": "Zscaler Inc.",
+    "sector": "Technology",
+    "market_cap": 30000000000,
+    "cloud_primary": "Azure",
+    "cloud_secondary": ["AWS"],
+    "confidence": 0.82,
+    "dependency_sources": ["edgar_filing"],
+    "regions": [
+      { "provider": "Azure", "region_id": "eastus", "confidence": 0.80 },
+      { "provider": "AWS", "region_id": "us-east-1", "confidence": 0.65 }
+    ]
+  },
+  {
+    "ticker": "TEAM",
+    "name": "Atlassian Corp.",
+    "sector": "Technology",
+    "market_cap": 50000000000,
+    "cloud_primary": "AWS",
+    "cloud_secondary": [],
+    "confidence": 0.88,
+    "dependency_sources": ["edgar_filing", "job_posting"],
+    "regions": [
+      { "provider": "AWS", "region_id": "us-east-1", "confidence": 0.85 },
+      { "provider": "AWS", "region_id": "ap-southeast-1", "confidence": 0.70 }
+    ]
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft Corp.",
+    "sector": "Technology",
+    "market_cap": 3000000000000,
+    "cloud_primary": "Azure",
+    "cloud_secondary": [],
+    "confidence": 1.0,
+    "dependency_sources": ["manual"],
+    "regions": [
+      { "provider": "Azure", "region_id": "eastus", "confidence": 1.0 }
+    ],
+    "notes": "Microsoft runs Azure. Self-dependent on Azure infrastructure."
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Alphabet Inc.",
+    "sector": "Communication Services",
+    "market_cap": 2000000000000,
+    "cloud_primary": "GCP",
+    "cloud_secondary": [],
+    "confidence": 1.0,
+    "dependency_sources": ["manual"],
+    "regions": [
+      { "provider": "GCP", "region_id": "us-central1", "confidence": 1.0 },
+      { "provider": "GCP", "region_id": "us-east1", "confidence": 0.90 }
+    ],
+    "notes": "Google runs GCP. Self-dependent on GCP infrastructure."
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon.com Inc.",
+    "sector": "Consumer Discretionary",
+    "market_cap": 2000000000000,
+    "cloud_primary": "AWS",
+    "cloud_secondary": [],
+    "confidence": 1.0,
+    "dependency_sources": ["manual"],
+    "regions": [
+      { "provider": "AWS", "region_id": "us-east-1", "confidence": 1.0 },
+      { "provider": "AWS", "region_id": "us-west-2", "confidence": 0.90 }
+    ],
+    "notes": "Amazon runs AWS. An AWS outage directly impacts Amazon's own services."
+  }
+]

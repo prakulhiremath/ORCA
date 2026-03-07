@@ -1,0 +1,26 @@
+{
+  "portfolio_id": "demo-001",
+  "name": "Tech Growth Portfolio",
+  "positions": [
+    { "ticker": "SNOW",  "name": "Snowflake",          "weight": 0.08, "sector": "Technology" },
+    { "ticker": "DDOG",  "name": "Datadog",             "weight": 0.07, "sector": "Technology" },
+    { "ticker": "MDB",   "name": "MongoDB",             "weight": 0.06, "sector": "Technology" },
+    { "ticker": "NET",   "name": "Cloudflare",          "weight": 0.06, "sector": "Technology" },
+    { "ticker": "MSFT",  "name": "Microsoft",           "weight": 0.08, "sector": "Technology" },
+    { "ticker": "AMZN",  "name": "Amazon",              "weight": 0.08, "sector": "Consumer Discretionary" },
+    { "ticker": "GOOGL", "name": "Alphabet",            "weight": 0.07, "sector": "Communication Services" },
+    { "ticker": "CRM",   "name": "Salesforce",          "weight": 0.05, "sector": "Technology" },
+    { "ticker": "NOW",   "name": "ServiceNow",          "weight": 0.05, "sector": "Technology" },
+    { "ticker": "TEAM",  "name": "Atlassian",           "weight": 0.04, "sector": "Technology" },
+    { "ticker": "ZS",    "name": "Zscaler",             "weight": 0.04, "sector": "Technology" },
+    { "ticker": "CRWD",  "name": "CrowdStrike",         "weight": 0.05, "sector": "Technology" },
+    { "ticker": "JPM",   "name": "JPMorgan Chase",      "weight": 0.06, "sector": "Financials" },
+    { "ticker": "GS",    "name": "Goldman Sachs",       "weight": 0.05, "sector": "Financials" },
+    { "ticker": "BRK.B", "name": "Berkshire Hathaway",  "weight": 0.04, "sector": "Financials" },
+    { "ticker": "UNH",   "name": "UnitedHealth",        "weight": 0.04, "sector": "Health Care" },
+    { "ticker": "LLY",   "name": "Eli Lilly",           "weight": 0.04, "sector": "Health Care" },
+    { "ticker": "XOM",   "name": "ExxonMobil",          "weight": 0.04, "sector": "Energy" },
+    { "ticker": "NEE",   "name": "NextEra Energy",      "weight": 0.03, "sector": "Utilities" },
+    { "ticker": "SPY",   "name": "S&P 500 ETF",         "weight": 0.07, "sector": "Index" }
+  ]
+}
