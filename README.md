@@ -1,8 +1,11 @@
-# ORCA
+# ORCA  
 ### Operational Risk & Cascade Analyzer
 
-> Detect infrastructure events before they become portfolio losses.
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19698089-blue.svg)](https://doi.org/10.5281/zenodo.19698089)
 
+## Keywords
+
+operational risk, portfolio risk, event-driven risk, infrastructure risk, cloud outages, cyber incidents, supply chain disruptions, exposure graph, dependency modeling, real-time risk monitoring, event propagation, financial systems, systemic risk, risk analytics, graph-based modeling, cybersecurity signals, BGP anomalies, cloud infrastructure, alternative data, quantitative finance
 ---
 
 ## What ORCA Does
