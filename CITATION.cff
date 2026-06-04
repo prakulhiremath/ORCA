@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "ORCA: Operational Risk & Cascade Analyzer"
+message: "If you use ORCA in your research, please cite it using the metadata below."
+type: software
+
+authors:
+  - family-names: Hiremath
+    given-names: Prakul
+
+repository-code: "https://github.com/prakulhiremath/ORCA"
+license: Apache-2.0
+
+keywords:
+  - operational risk
+  - portfolio risk
+  - infrastructure risk
+  - cloud outages
+  - cyber incidents
+  - supply chain disruptions
+  - dependency graph
+  - risk analytics
+  - quantitative finance
+
+abstract: >
+  ORCA is an operational risk intelligence system that monitors
+  real-world infrastructure events such as cloud outages, cyber incidents,
+  and supply chain disruptions, maps them to company dependencies, and
+  estimates portfolio exposure through graph-based risk propagation.
+
+version: "0.1.0"
+date-released: 2025-03-01
